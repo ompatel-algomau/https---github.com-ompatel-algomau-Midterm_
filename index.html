@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">HTML5</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
+            </div>
+            <div class="right">
+                <button data-bs-theme-value="dark" onclick="setDarkMode()">Dark</button>
+                <button data-bs-theme-value="light" onclick="setLightMode()">Light</button>
+                <button>Contact Me</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="column left">
+                <p class="title">Factorial calculator.</p>
+                <p class="formula">n! = 1 × 2 × 3 ... × n.</p>
+                <p class="example">e.g. 5! = 120.</p>
+                <button id="enterButton">Enter</button>
+            </div>
+            <div class="column right">
+                <input type="number" id="userInput" class="input-box" placeholder="Enter a number">
+                <div class="screen" id="resultScreen"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Om Patel © 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>

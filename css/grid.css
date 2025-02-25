@@ -1,0 +1,73 @@
+body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formula {
+    color: #ffcc00;
+}
+
+.example {
+    font-size: 1rem;
+    color: lightgray;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.input-box {
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.screen {
+    width: 300px;
+    height: 50px;
+    background-color: #332703;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
